@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="094c04cf-e3f8-4973-9a5e-c012b42fc57b" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/kotlin/GameOfLIfeTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/kotlin/GameOfLIfeTest.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -101,6 +100,29 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
+    <configuration name="GridTest.must return all positions of the neighbours of the cell" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;GridTest.must return all positions of the neighbours of the cell&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
     <configuration name="MainKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="MainKt" />
       <module name="talk-who-run-the-tech-kata-game-of-life.main" />
@@ -111,6 +133,7 @@
     <recent_temporary>
       <list>
         <item itemvalue="Gradle.GridTest" />
+        <item itemvalue="Gradle.GridTest.must return all positions of the neighbours of the cell" />
         <item itemvalue="Gradle.GameOfLIfeTest.initialized a 3x3 grid" />
         <item itemvalue="Kotlin.MainKt" />
       </list>
@@ -125,7 +148,7 @@
       <option name="presentableId" value="Default" />
       <updated>1699359949757</updated>
       <workItem from="1699359951174" duration="1279000" />
-      <workItem from="1699387524500" duration="1669000" />
+      <workItem from="1699387524500" duration="1972000" />
     </task>
     <servers />
   </component>
