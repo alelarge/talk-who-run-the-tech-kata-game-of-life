@@ -1,7 +1,7 @@
 import org.assertj.core.api.Assertions.assertThat
 import org.junit.jupiter.api.Test
 
-class GameOfLIfeTest {
+class GridTest {
     @Test
     fun `initialized a 3x3 grid`(){
         val grid = Grid(3,3)
