@@ -9,7 +9,7 @@ class Cell (private var cellState: CellState) {
        val liveNeighbours = neighbours.count {it.state == CellState.ALIVE}
         if (liveNeighbours < 2 || liveNeighbours >3) {
             state = CellState.DEAD
-        } else {
+        } else if(liveNeighbours == 3) {
             state = CellState.ALIVE
         }
     }
