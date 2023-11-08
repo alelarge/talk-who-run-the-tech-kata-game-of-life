@@ -10,7 +10,7 @@ class Cell (private var cellState: CellState) {
         if (liveNeighbours < 2 || liveNeighbours >3) {
             state = CellState.DEAD
         } else {
-            state = CellState.DEAD
+            state = CellState.ALIVE
         }
     }
 }
