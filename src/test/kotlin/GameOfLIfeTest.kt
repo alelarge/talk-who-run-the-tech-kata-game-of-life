@@ -39,5 +39,12 @@ class GridTest {
         // Then
         assertThat(expectedNeighbours.toSet()).isEqualTo(cellNeighbourPositions.toSet())
     }
+}
 
+class CellTest {
+    @Test
+    fun `cell should be alive when initialized as alive`(){
+        val aliveCell = Cell(CellState.ALIVE)
+        assertThat(aliveCell.isAlive()).isTrue
+    }
 }
