@@ -1,8 +1,23 @@
 class Grid(private val rows: Int, private val cols: Int) {
+    private var currentPosition = Position(0, 0)
+    private var isInitialized = false
     fun hasNext() : Boolean {
-        return true
+        return currentPosition.x < rows && currentPosition.y < cols
     }
+    fun next(): Position {
+        if (!isInitialized) {
+            isInitialized = true
+        }
 
+        val position = currentPosition.copy()
+
+        currentPosition.y++
+        if (currentPosition.y == cols) {
+            currentPosition.y = 0
+            currentPosition.x++
+        }
+        return position
+    }
     fun getNeighbourPositions(position: Position, scale: Int): Set<Position> {
         val neighbourPositions = mutableSetOf<Position>()
 
@@ -17,5 +32,10 @@ class Grid(private val rows: Int, private val cols: Int) {
             }
         }
         return neighbourPositions
+    }
+
+    fun reset() {
+        currentPosition = Position(0, 0)
+        isInitialized = false
     }
 }
