@@ -20,4 +20,14 @@ class Game {
     fun play() {
         aliveCell = listOf()
     }
+
+    fun getCellAtPosition(position: Position): Cell{
+        if(aliveCell.contains(position)){
+            return Cell(CellState.ALIVE)
+        } else {
+            return Cell(CellState.DEAD)
+        }
+    }
+
+
 }

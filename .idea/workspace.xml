@@ -67,7 +67,7 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Gradle.GameOfLIfeTest.at the start of the game, if I have a living cell, then at the next turn, the game is over">
+  <component name="RunManager" selected="Gradle.GameOfLIfeTest">
     <configuration name="CellTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -114,6 +114,29 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
+    <configuration name="GameOfLIfeTest.at the beginning of the game game of life, if you have living cells, the game continues" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;GameOfLIfeTest.at the beginning of the game game of life, if you have living cells, the game continues&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
     <configuration name="GameOfLIfeTest.at the start of the game, if I have a living cell, then at the next turn, the game is over" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -128,29 +151,6 @@
             <option value=":test" />
             <option value="--tests" />
             <option value="&quot;GameOfLIfeTest.at the start of the game, if I have a living cell, then at the next turn, the game is over&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <method v="2" />
-    </configuration>
-    <configuration name="GridTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;GridTest&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -185,11 +185,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.GameOfLIfeTest.at the start of the game, if I have a living cell, then at the next turn, the game is over" />
         <item itemvalue="Gradle.GameOfLIfeTest" />
+        <item itemvalue="Gradle.GameOfLIfeTest.at the beginning of the game game of life, if you have living cells, the game continues" />
+        <item itemvalue="Gradle.GameOfLIfeTest.at the start of the game, if I have a living cell, then at the next turn, the game is over" />
         <item itemvalue="Gradle.CellTest" />
         <item itemvalue="Gradle.GridTest.must return all positions of the neighbours of the cell at the center of the grid" />
-        <item itemvalue="Gradle.GridTest" />
       </list>
     </recent_temporary>
   </component>
