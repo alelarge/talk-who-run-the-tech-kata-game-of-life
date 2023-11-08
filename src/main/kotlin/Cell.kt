@@ -4,6 +4,6 @@ enum class CellState{
 
 class Cell (private var cellState: CellState) {
     fun isAlive() : Boolean {
-        return TODO("Provide the return value")
+        return true
     }
 }
