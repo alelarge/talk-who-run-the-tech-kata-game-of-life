@@ -66,7 +66,7 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Gradle.CellTest">
+  <component name="RunManager" selected="Gradle.CellTest.cell dies when it has more than 3 live neighbours">
     <configuration name="CellTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -136,7 +136,7 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="CellTest.cell should be alive when initialized as alive (1)" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="CellTest.cell dies when it has more than 3 live neighbours" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -149,7 +149,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;CellTest.cell should be alive when initialized as alive&quot;" />
+            <option value="&quot;CellTest.cell dies when it has more than 3 live neighbours&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -184,11 +184,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.CellTest.cell dies when it has more than 3 live neighbours" />
         <item itemvalue="Gradle.CellTest" />
         <item itemvalue="Gradle.CellTest.cell dies when it has more than 3 live neighbors" />
         <item itemvalue="Gradle.GridTest" />
         <item itemvalue="Gradle.CellTest.cell dies when it has less than 2 live neighbours" />
-        <item itemvalue="Gradle.CellTest.cell should be alive when initialized as alive (1)" />
       </list>
     </recent_temporary>
   </component>
