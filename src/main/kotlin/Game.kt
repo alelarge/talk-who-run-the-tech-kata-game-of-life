@@ -13,8 +13,4 @@ class Game {
     fun isOver() : Boolean {
         return true
     }
-
-    fun play(){
-
-    }
 }
