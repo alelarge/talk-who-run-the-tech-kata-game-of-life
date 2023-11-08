@@ -23,4 +23,21 @@ class GridTest {
         // Then
         assertThat(expectedNeighbours.toSet()).isEqualTo(cellNeighbourPositions.toSet())
     }
+
+    @Test
+    fun `must return all positions of the neighbours of the cell at bottom right`() {
+        // Given
+        val grid = Grid(3, 3)
+        val cellNeighbourPositions = grid.getNeighbourPositions(Position(2, 2), 1)
+
+        // When
+        val expectedNeighbours = setOf(
+
+                                  Position(1, 1), Position(1, 2),
+                                  Position(2, 1)
+        )
+        // Then
+        assertThat(expectedNeighbours.toSet()).isEqualTo(cellNeighbourPositions.toSet())
+    }
+
 }
