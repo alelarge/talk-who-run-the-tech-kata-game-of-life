@@ -17,5 +17,7 @@ class Game {
             return false
         }
     }
-    fun play(){}
+    fun play() {
+        aliveCell = listOf()
+    }
 }

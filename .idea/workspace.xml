@@ -7,6 +7,7 @@
     <list default="true" id="094c04cf-e3f8-4973-9a5e-c012b42fc57b" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/Game.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Game.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/kotlin/GameOfLIfeTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/kotlin/GameOfLIfeTest.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,7 +67,7 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Gradle.GameOfLIfeTest">
+  <component name="RunManager" selected="Gradle.GameOfLIfeTest.at the start of the game, if I have a living cell, then at the next turn, the game is over">
     <configuration name="CellTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -113,7 +114,7 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="GameOfLIfeTest.at the beginning of the game game of life, if you have living cells, the game continues" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="GameOfLIfeTest.at the start of the game, if I have a living cell, then at the next turn, the game is over" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -126,7 +127,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;GameOfLIfeTest.at the beginning of the game game of life, if you have living cells, the game continues&quot;" />
+            <option value="&quot;GameOfLIfeTest.at the start of the game, if I have a living cell, then at the next turn, the game is over&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -136,7 +137,7 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="GameOfLIfeTest.at the start of the game game of life, if I have a living cell, then at the next turn, the game is over" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="GridTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -149,7 +150,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;GameOfLIfeTest.at the start of the game game of life, if I have a living cell, then at the next turn, the game is over&quot;" />
+            <option value="&quot;GridTest&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -159,7 +160,7 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="GameOfLIfeTest.at the start of the game game of life, if I have no living cells then the game is over" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="GridTest.must return all positions of the neighbours of the cell at the center of the grid" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -172,7 +173,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;GameOfLIfeTest.at the start of the game game of life, if I have no living cells then the game is over&quot;" />
+            <option value="&quot;GridTest.must return all positions of the neighbours of the cell at the center of the grid&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -184,11 +185,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.GameOfLIfeTest.at the start of the game, if I have a living cell, then at the next turn, the game is over" />
         <item itemvalue="Gradle.GameOfLIfeTest" />
-        <item itemvalue="Gradle.GameOfLIfeTest.at the beginning of the game game of life, if you have living cells, the game continues" />
-        <item itemvalue="Gradle.GameOfLIfeTest.at the start of the game game of life, if I have a living cell, then at the next turn, the game is over" />
-        <item itemvalue="Gradle.GameOfLIfeTest.at the start of the game game of life, if I have no living cells then the game is over" />
         <item itemvalue="Gradle.CellTest" />
+        <item itemvalue="Gradle.GridTest.must return all positions of the neighbours of the cell at the center of the grid" />
+        <item itemvalue="Gradle.GridTest" />
       </list>
     </recent_temporary>
   </component>
@@ -202,7 +203,7 @@
       <updated>1699359949757</updated>
       <workItem from="1699359951174" duration="1279000" />
       <workItem from="1699387524500" duration="4026000" />
-      <workItem from="1699431911707" duration="6677000" />
+      <workItem from="1699431911707" duration="8877000" />
     </task>
     <servers />
   </component>
