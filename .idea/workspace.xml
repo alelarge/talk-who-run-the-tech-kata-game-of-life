@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="094c04cf-e3f8-4973-9a5e-c012b42fc57b" name="Changes" comment="" />
+    <list default="true" id="094c04cf-e3f8-4973-9a5e-c012b42fc57b" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/kotlin/GameOfLIfeTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/kotlin/GameOfLIfeTest.kt" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -63,7 +66,7 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Gradle.CellTest">
+  <component name="RunManager" selected="Gradle.CellTest.cell stays alive when it has 2 live neighbors">
     <configuration name="CellTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -181,10 +184,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.CellTest.cell stays alive when it has 2 live neighbors" />
         <item itemvalue="Gradle.CellTest" />
         <item itemvalue="Gradle.CellTest.cell stays alive when it has 3 live neighbors" />
         <item itemvalue="Gradle.CellTest.cell should be dead when initialized as dead" />
-        <item itemvalue="Gradle.CellTest.cell stays alive when it has 2 live neighbors" />
         <item itemvalue="Gradle.CellTest.cell dies when it has more than 3 live neighbours" />
       </list>
     </recent_temporary>
@@ -199,7 +202,7 @@
       <updated>1699359949757</updated>
       <workItem from="1699359951174" duration="1279000" />
       <workItem from="1699387524500" duration="4026000" />
-      <workItem from="1699431911707" duration="3764000" />
+      <workItem from="1699431911707" duration="4885000" />
     </task>
     <servers />
   </component>
