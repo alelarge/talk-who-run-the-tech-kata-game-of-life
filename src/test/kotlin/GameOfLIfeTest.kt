@@ -9,7 +9,7 @@ class GridTest {
     }
 
     @Test
-    fun `must return all positions of the neighbours of the cell`() {
+    fun `must return all positions of the neighbours of the cell at the center of the grid`() {
         // Given
         val grid = Grid(3, 3)
         val cellNeighbourPositions = grid.getNeighbourPositions(Position(1, 1), 1)
