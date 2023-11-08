@@ -11,6 +11,10 @@ class Game {
     private var aliveCell: List<Position>
 
     fun isOver() : Boolean {
-        return true
+        if (aliveCell.isEmpty()) {
+            return true
+        } else {
+            return false
+        }
     }
 }
