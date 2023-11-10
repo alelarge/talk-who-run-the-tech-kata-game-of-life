@@ -5,8 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="094c04cf-e3f8-4973-9a5e-c012b42fc57b" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/kotlin/GridTest.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Game.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Game.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Grid.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Grid.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/kotlin/GameOfLIfeTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/kotlin/GameOfLIfeTest.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,25 +51,31 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.lookFeel",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
-  <component name="RunManager" selected="Gradle.GameOfLIfeTest.horizontal cells evolve into vertical cells in the next generation">
-    <configuration name="CellTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveKotlinTopLevelDeclarationsDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Gradle.GridTest.must return all positions of the neighbours of the cell at bottom right">
+    <configuration name="GameOfLIfeTest.horizontal cells evolve back into horizontal cells in 2 generations" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -80,7 +88,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;CellTest&quot;" />
+            <option value="&quot;GameOfLIfeTest.horizontal cells evolve back into horizontal cells in 2 generations&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -90,7 +98,7 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="GameOfLIfeTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="GridTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -103,7 +111,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;GameOfLIfeTest&quot;" />
+            <option value="&quot;GridTest&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -113,7 +121,7 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="GameOfLIfeTest.at the beginning of the game game of life, if you have living cells, the game continues" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="GridTest.create position" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -126,7 +134,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;GameOfLIfeTest.at the beginning of the game game of life, if you have living cells, the game continues&quot;" />
+            <option value="&quot;GridTest.create position&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -136,7 +144,7 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="GameOfLIfeTest.at the start of the game, if I have a living cell, then at the next turn, the game is over" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="GridTest.initialized a 3x3 grid" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -149,7 +157,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;GameOfLIfeTest.at the start of the game, if I have a living cell, then at the next turn, the game is over&quot;" />
+            <option value="&quot;GridTest.initialized a 3x3 grid&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -159,7 +167,7 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="GameOfLIfeTest.horizontal cells evolve into vertical cells in the next generation" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="GridTest.must return all positions of the neighbours of the cell at bottom right" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -172,7 +180,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;GameOfLIfeTest.horizontal cells evolve into vertical cells in the next generation&quot;" />
+            <option value="&quot;GridTest.must return all positions of the neighbours of the cell at bottom right&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -184,11 +192,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.GameOfLIfeTest.horizontal cells evolve into vertical cells in the next generation" />
-        <item itemvalue="Gradle.GameOfLIfeTest" />
-        <item itemvalue="Gradle.GameOfLIfeTest.at the beginning of the game game of life, if you have living cells, the game continues" />
-        <item itemvalue="Gradle.GameOfLIfeTest.at the start of the game, if I have a living cell, then at the next turn, the game is over" />
-        <item itemvalue="Gradle.CellTest" />
+        <item itemvalue="Gradle.GridTest.must return all positions of the neighbours of the cell at bottom right" />
+        <item itemvalue="Gradle.GridTest" />
+        <item itemvalue="Gradle.GridTest.create position" />
+        <item itemvalue="Gradle.GridTest.initialized a 3x3 grid" />
+        <item itemvalue="Gradle.GameOfLIfeTest.horizontal cells evolve back into horizontal cells in 2 generations" />
       </list>
     </recent_temporary>
   </component>
@@ -202,7 +210,7 @@
       <updated>1699359949757</updated>
       <workItem from="1699359951174" duration="1279000" />
       <workItem from="1699387524500" duration="4026000" />
-      <workItem from="1699431911707" duration="9442000" />
+      <workItem from="1699431911707" duration="16040000" />
     </task>
     <servers />
   </component>
