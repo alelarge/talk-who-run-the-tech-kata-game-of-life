@@ -1,2 +1,2 @@
-//data-class-position
-//green-position
+data class Position(val x: Int, val y: Int)
+
