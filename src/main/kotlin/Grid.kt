@@ -1,8 +1,14 @@
 class Grid( val rows: Int, val cols: Int)  {
-   //red-compile-neighbours-position-center
+    //red-compile-neighbour-position
 }
 
-//test-green-neighbour
+//getNeighbourPosition-green
 
-//test-refactor-neighbour-position
+//refactor-getNeighourPosition
+
+
+
+
+
+
 
